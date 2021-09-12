@@ -18,6 +18,16 @@ body {
     font-size:4rem;
     padding: 0% 1rem;
 }
+.header_middle_heading {
+    font-size: 1.5rem;
+    
+    color: grey;
+    padding: 1rem 1rem;
+}
+.header_small_text {
+    color: rgb(196, 190, 190);
+    padding: 0% 1rem;
+}
 .coloured_part_of_header {
     height: 80%;
     background-color:#0A0FB0;
@@ -47,26 +57,21 @@ body {
     padding: 1rem 4rem;
 }
 
-.image {
-    
-}
 
 
 @media (min-width:1090px){
     .first_object_header {
         order:1;
-        padding: 0px 0px;
-        margin: 0px 0px;
+        
     }
     .second_object_header {
         order:2;
-        padding: 0px 0px;
-        margin: 0px 0px;
+        
     }
 
     .big_heading {
         text-align: left;
-        padding: 0px 0px;
+        
         padding: 8rem 2rem;
     }
 
@@ -78,14 +83,12 @@ body {
 @media (max-width:1089px){
     .first_object_header {
         order:2;
-        padding: 0px 0px;
-        margin: 0px 0px;
+        
         
     }
     .second_object_header {
         order:1;
-        padding: 0px 0px;
-        margin: 0px 0px;
+        
         
     }
     .big_heading {
