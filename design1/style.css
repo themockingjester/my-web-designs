@@ -1,6 +1,7 @@
 
 body {
     margin: 0% 0%;
+    padding: 0% 0%;
 }
 
 /* header section */
@@ -10,20 +11,26 @@ body {
 .header_big_heading_upper_text {
     color: black;
     font-size:5rem;
+    padding: 0% 1rem;
 }
 .header_big_heading_lower_text {
     color:red;
     font-size:4rem;
+    padding: 0% 1rem;
 }
 .coloured_part_of_header {
     height: 80%;
     background-color:#0A0FB0;
     text-align: center;
+    
     border-bottom-left-radius:40%;
     border-bottom-right-radius:40%;
 }
 .container-fluid {
+
     padding: 0% 0%;
+    
+    margin:0% 0%;
     
 }
 .my_navigation_bar {
@@ -31,6 +38,7 @@ body {
     
 
 }
+
 
 .link_in_navbar {
     text-decoration: none;
@@ -42,38 +50,48 @@ body {
 .image {
     
 }
-.common_container_for_image_and_navbar {
-    order: 1;
-    
-}
+
+
 @media (min-width:1090px){
     .first_object_header {
         order:1;
+        padding: 0px 0px;
+        margin: 0px 0px;
     }
     .second_object_header {
         order:2;
+        padding: 0px 0px;
+        margin: 0px 0px;
     }
 
     .big_heading {
         text-align: left;
-        
-        padding: 8rem 6rem;
+        padding: 0px 0px;
+        padding: 8rem 2rem;
     }
 
 }
+.navbar-toggler-icon {
+    margin: 1rem 1.5rem;
+}
+
 @media (max-width:1089px){
     .first_object_header {
         order:2;
-        width:100%
+        padding: 0px 0px;
+        margin: 0px 0px;
+        
     }
     .second_object_header {
         order:1;
-        width:100%
+        padding: 0px 0px;
+        margin: 0px 0px;
+        
     }
     .big_heading {
         text-align: left;
+        padding: 14em 10em;
         
-        margin: 5rem 30%;
     }
 
 }
